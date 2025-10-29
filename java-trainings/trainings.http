@@ -1,0 +1,16 @@
+POST http://localhost:8080/ask
+
+Milyen előnyei vannak a Java nyelvnek más programozási nyelvekkel szemben?
+
+###
+POST http://localhost:8080/ask
+
+Mely tanfolyam szól a Spring AI-ról?
+
+###
+POST http://localhost:8080/ask
+
+Mikor lesz legközelebb Spring AI tanfolyam?
+
+###
+GET http://localhost:8080/actuator/metrics/gen_ai.client.token.usage
