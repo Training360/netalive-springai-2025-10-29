@@ -128,7 +128,7 @@ public class TrainingsLoader {
 ```java
 return ChatClient.builder(chatModel)
         .build()
-        .prompt(question)
+        .prompt()
         .advisors(new QuestionAnswerAdvisor(vectorStore))
         .system("""
                 Te a Training360 chatbotja vagy, aki a Training360 tanfolyamokkal kapcsolatos kérdésekre válaszol.
